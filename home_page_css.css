@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.seg_one{
+    height: 100vh;
+    width: 100%;
+    background-color: #64c4ed;
+    margin: 0;
+}
+
+#seg_two{
+    height: 80vh;
+    width: 100%;
+    background-color: #6ef3d6;
+    margin: 0;
+    position: relative;
+}
+
+#seg_three{
+    height: 80vh;
+    width: 100%;
+    background-color: #606060;
+    margin: 0;
+}
+
+.arrow{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%; 
+    background-color: orange;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #606060;
+    position: absolute;
+    top: 85vh;
+    right: 5%;
+}
+
+.arrow_img{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    /* margin-right: 20px; */
+}
+
+#reference{
+    position: absolute;
+    top: 5vh;
+    left: 10%;
+}       
