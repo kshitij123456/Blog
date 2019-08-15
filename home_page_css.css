@@ -1,8 +1,12 @@
 body{
-    margin: 0;
+    padding-top: 60px;
 }
 
-.seg_one{
+nav {
+    height: 60px;
+}
+
+#seg_one{
     height: 100vh;
     width: 100%;
     background-color: #64c4ed;
@@ -24,7 +28,7 @@ body{
     margin: 0;
 }
 
-.arrow{
+#arrow{
     height: 70px;
     width: 70px;
     border-radius: 100%; 
@@ -40,7 +44,7 @@ body{
     right: 5%;
 }
 
-.arrow_img{
+#arrow_img{
     cursor: pointer;
     height: 30px;
     width: 30px;
